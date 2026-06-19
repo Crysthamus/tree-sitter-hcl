@@ -25,7 +25,7 @@ jobs:
 
       - name: Fetch upstream main
         run: |
-          git remote add upstream https://github.com/tree-sitter-grammars/tree-sitter-vim.git
+          git remote add upstream https://github.com/tree-sitter-grammars/tree-sitter-hcl.git
           git fetch upstream main
 
       - name: Sync pure mirror
