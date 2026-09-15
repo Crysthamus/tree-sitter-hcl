@@ -14,15 +14,16 @@
     "terraform"
   ],
   "files": [
+    "*.wasm",
+    "binding.gyp",
+    "bindings/node/*",
+    "dialects",
     "grammar.js",
     "make_grammar.js",
-    "tree-sitter.json",
-    "binding.gyp",
     "prebuilds/**",
-    "bindings/node/*",
     "queries/*",
     "src/**",
-    "*.wasm"
+    "tree-sitter.json"
   ],
   "dependencies": {
     "node-addon-api": "^8.3.1",
